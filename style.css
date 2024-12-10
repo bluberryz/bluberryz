@@ -24,7 +24,7 @@ body {
     margin-top: 100px;
 }
 /* General responsive styling */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     body {
         margin-top: 60px; /* Adjust margin to make room for the fixed header */
     }
