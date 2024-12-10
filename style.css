@@ -137,6 +137,104 @@ body {
         font-size: 1.4rem; /* Adjust font size */
     }
 }
+@media screen and (max-width: 480px) {
+    /* Adjust general body styles */
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 14px; /* Smaller base font size */
+    }
+
+    header {
+        padding: 10px; /* Adjust padding */
+    }
+
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        font-size: 1.5rem; /* Adjust for smaller screens */
+    }
+
+    .container .item {
+        flex-direction: column; /* Stack items vertically */
+        padding: 10px; /* Reduce padding */
+        align-items: center; /* Center align items */
+    }
+
+    /* Adjust navigation links */
+    .nav-links {
+        flex-direction: column;
+        gap: 5px; /* Reduce the gap */
+    }
+
+    .nav-links a {
+        font-size: 1.2rem; /* Smaller font size */
+        padding: 5px 10px; /* Adjust padding */
+    }
+
+    /* Container 2 adjustments */
+    .container-2 {
+        padding: 10px; /* Adjust padding */
+    }
+
+    .container-2 .item-2 {
+        text-align: center; /* Center content */
+    }
+
+    .container-2 .item-2-1 {
+        font-size: 1rem; /* Adjust font size */
+        padding: 10px; /* Adjust padding */
+    }
+
+    /* Adjust images and videos */
+    .item-3 img,
+    video {
+        width: 100%; /* Ensure images and videos resize */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Adjust modal styling */
+    .modal-content {
+        width: 100%; /* Adjust modal content to fit smaller screens */
+        max-width: 100%;
+    }
+
+    .close {
+        font-size: 24px; /* Smaller close button */
+        top: 5px; /* Adjust position */
+        right: 10px; /* Adjust position */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Adjust heading size */
+    }
+
+    .contact-card {
+        padding: 10px; /* Adjust padding */
+        width: 100%; /* Ensure it fits the screen */
+    }
+
+    .contact-card ul {
+        padding: 0; /* Remove padding */
+        width: 100%; /* Ensure it fits the screen */
+    }
+
+    .item-3 {
+        flex-direction: column; /* Stack images vertically */
+        gap: 5px; /* Reduce the gap */
+    }
+
+    /* Adjust video containers */
+    .video-container {
+        flex-direction: column; /* Stack videos vertically */
+        gap: 10px; /* Add spacing between videos */
+    }
+
+    .video-item video {
+        width: 100%; /* Ensure video fits the screen */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
 
 body {
     color: #DC68FF;
