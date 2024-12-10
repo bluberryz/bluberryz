@@ -23,6 +23,121 @@ header {
 body {
     margin-top: 100px;
 }
+/* General responsive styling */
+@media screen and (max-width: 768px) {
+    body {
+        margin-top: 60px; /* Adjust margin to make room for the fixed header */
+    }
+
+    .container {
+        flex-direction: column; /* Stack header items vertically */
+        font-size: large; /* Adjust font size for smaller screens */
+        height: auto; /* Allow the height to be flexible */
+        padding: 0 10px; /* Reduce padding */
+    }
+
+    .container .item {
+        flex-direction: column; /* Stack items vertically */
+        padding: 10px 15px; /* Adjust padding */
+        font-size: larger; /* Adjust font size */
+    }
+
+    nav {
+        flex-direction: column; /* Stack navigation links vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack links vertically */
+        gap: 10px; /* Reduce gap */
+        padding: 0;
+    }
+
+    .nav-links a {
+        font-size: 1.5rem; /* Adjust font size */
+        padding: 8px 12px; /* Reduce padding */
+    }
+
+    .container-2 {
+        padding: 5%; /* Keep padding for spacing */
+        padding-left: 5%; /* Adjust padding */
+        padding-right: 5%; /* Adjust padding */
+    }
+
+    .container-2 .item-2 {
+        text-align: center; /* Center text for better readability */
+    }
+
+    .container-2 .item-2 .item-2-1 {
+        font-size: 1.4rem; /* Adjust font size */
+        padding: 15px; /* Adjust padding */
+    }
+
+    .container-2 .item-2 .item-2-2 {
+        font-size: 130%; /* Adjust font size */
+        padding: 8px; /* Adjust padding */
+    }
+
+    .container-2 .item-2 .item-2-3 {
+        font-size: 130%; /* Adjust font size */
+        padding: 12px; /* Adjust padding */
+    }
+
+    .contact-card {
+        padding: 15px; /* Adjust padding */
+        max-width: 100%; /* Make sure it fits smaller screens */
+    }
+
+    .contact-card h2 {
+        font-size: 1.6rem; /* Adjust font size */
+    }
+
+    .contact-card ul {
+        padding: 0 10px; /* Adjust padding */
+    }
+
+    .item-3 {
+        flex-direction: column; /* Stack images vertically */
+        gap: 10px; /* Adjust gap */
+    }
+
+    .square, .portrait {
+        width: 100%; /* Adjust width */
+        height: auto; /* Allow height to adjust proportionally */
+    }
+
+    .portrait1, .landscape1 {
+        height: auto; /* Allow height to adjust proportionally */
+        width: 100%; /* Adjust width */
+    }
+
+    video {
+        width: 100%; /* Make videos responsive */
+        height: auto; /* Adjust height proportionally */
+    }
+
+    /* Adjust modal styling */
+    .modal-content {
+        width: 90%; /* Adjust modal width */
+        max-width: 100%; /* Ensure modal fits within viewport */
+    }
+
+    .close {
+        top: 10px; /* Adjust top position */
+        right: 15px; /* Adjust right position */
+        font-size: 30px; /* Adjust font size */
+    }
+
+    /* Adjust text sizes */
+    h2 {
+        font-size: 1.5rem; /* Adjust font size */
+    }
+
+    .item-4 {
+        font-size: 1.4rem; /* Adjust font size */
+    }
+}
+
 body {
     color: #DC68FF;
     font-family: "Poppins", sans-serif;
