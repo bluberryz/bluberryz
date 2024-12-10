@@ -1,0 +1,362 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2E004B; /* Or the color of your choice */
+    z-index: 1000; /* Ensures the header stays above other content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for better visibility */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: xx-large;
+    height: 100px;
+    padding: 0 20px;
+}
+body {
+    margin-top: 100px;
+}
+body {
+    color: #DC68FF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: #2E004B;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: xx-large;
+    height: 100px;
+}
+
+.container .item {
+    display: flex;
+    background-color: #ffdd41; 
+    padding: 0 20px; 
+    align-items: center;
+    border-radius: 25px;
+}
+
+.container .item .item-1 {
+    padding: 10px 15px;
+    color: #2E004B; 
+    font-weight: bold;
+}
+
+.container .item .item-1:nth-child(1) {
+    color: #2E004B; 
+}
+
+.container .item .item-1:nth-child(2) {
+    color: #DC68FF; 
+}
+
+.container .item .item-1:nth-child(3) {
+    color: #DC68FF; 
+}
+
+.container .item:first-child {
+    background-color: #2E004B;
+    color: #DC68FF; 
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin: 20px;
+    color: #ffdd41;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #ffdd41;
+    color: #2E004B;
+}
+
+/* Container-2 Styles */
+.container-2 {
+    display: flex;
+    margin-top: 150px;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(page-1/background.jpg);
+    background-size: cover;
+    gap: 20px;
+}
+
+.container-2 .item-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Items will stay vertically centered */
+    justify-content: center; /* Items will stay horizontally centered */
+    text-align: center;
+}
+
+.me {
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0;
+}
+
+.container-2 .item-2 .item-2-1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.6rem;
+    padding: 20px;
+    text-align: justify;
+    background-color: white;
+    color: #2E004B;
+    border-radius: 15px; 
+}
+
+.container-2 .item-2 .item-2-2 {
+    font-size: 150%;
+    padding: 10px;
+    margin-top: 10px;
+    line-height: 1.6;
+    color: #ffdd41;
+    background-color: #DC68FF;
+    border-radius: 5px;
+}
+
+.container-2 .item-2 .item-2-3 {
+    font-size: 150%;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: white;
+    color: #2E004B;
+    text-align: justify;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.item-4 {
+    color: #DC68FF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 150%;
+}
+
+.contact-card {
+    margin-top: 20px;
+    background-color: #ffdd41;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-card h2 {
+    color: #2E004B;
+    margin-bottom: 20px;
+}
+
+/* List Styles */
+.contact-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-card li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+/* Icon Styles */
+.contact-card .icon {
+    fill:#2E004B;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+/* Link Styles */
+.contact-card a {
+    color: #2E004B;
+    font-size: 30px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-card a:hover {
+    color:#fff;
+}
+
+h2 {
+    color: #2E004B;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 200%;
+}
+
+.container-3 {
+    padding-top: 25px;
+    margin-top: 200px;
+}
+
+.square {
+    width: auto;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 0;
+    margin: 3px;
+} 
+
+.portrait {
+    width: auto;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 0;
+    margin: 3px;
+}
+
+.item-3 {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 5px; /* Space between images */
+    align-items: justify;
+    justify-content: center;
+    object-fit: cover;
+    
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+#caption {
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #ffdd41;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.item-4 {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 5px; /* Space between images */
+    align-items: justify;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.portrait1 {
+    width: auto;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 0;
+    margin: 3px;
+}
+
+.landscape1 {
+    width: auto;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 0;
+    margin: 3px;
+}
+
+#videos {
+    text-align: center;
+    padding: 10px;
+}
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+video {
+    width: auto;
+    height: 650px; /* Responsive height */      
+    display: block;
+}
+
+
